@@ -47,6 +47,7 @@ BOARD_USES_QCOM_FBE_DECRYPTION := true
 
 # Decryption
 PLATFORM_VERSION := 16.1.0
+PLATFORM_SECURITY_PATCH := 2099-12-31
 
 # Kernel
 BOARD_KERNEL_CMDLINE := console=ttyMSM0,115200,n8 androidboot.console=ttyMSM0 earlycon=msm_serial_dm,0xc170000 firmware_class.path=/system/etc/firmware printk.devkmsg=on
