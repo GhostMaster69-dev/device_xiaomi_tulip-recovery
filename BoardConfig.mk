@@ -45,6 +45,9 @@ TARGET_NO_BOOTLOADER := true
 # Crypto
 BOARD_USES_QCOM_FBE_DECRYPTION := true
 
+# Decryption
+PLATFORM_VERSION := 16.1.0
+
 # Kernel
 BOARD_KERNEL_CMDLINE := console=ttyMSM0,115200,n8 androidboot.console=ttyMSM0 earlycon=msm_serial_dm,0xc170000 firmware_class.path=/system/etc/firmware printk.devkmsg=on
 BOARD_KERNEL_CMDLINE += androidboot.hardware=qcom user_debug=31 msm_rtb.filter=0x37 ehci-hcd.park=3
