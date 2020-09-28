@@ -119,6 +119,7 @@ TW_Y_OFFSET := 89
 TW_H_OFFSET := -89
 TW_USE_FSCRYPT_POLICY := 1
 TW_USE_TOOLBOX := true
+TW_OVERRIDE_SYSTEM_PROPS := "ro.build.fingerprint=ro.system.build.fingerprint;ro.build.version.incremental"
 
 # Debug Flags
 TARGET_USES_LOGD := true
