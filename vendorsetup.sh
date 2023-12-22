@@ -25,8 +25,9 @@ export FOX_VERSION="R11.1"
 export FOX_BUILD_TYPE="Unofficial"
 export FOX_VARIANT="4.4-A12-$DATE"
 export FOX_BUGGED_AOSP_ARB_WORKAROUND="1510672800" # Tue Nov 14 15:20:00 GMT 2017
+export OF_TARGET_DEVICES="tulip,twolip"
 export OF_SKIP_DECRYPTED_ADOPTED_STORAGE=1
-export OF_SCREEN_H=2160
+export OF_SCREEN_H=2280
 export OF_USE_GREEN_LED=0
 export OF_ALLOW_DISABLE_NAVBAR=0
 export OF_STATUS_INDENT_LEFT=48
@@ -38,14 +39,14 @@ export OF_NO_MIUI_PATCH_WARNING=1
 export OF_OTA_RES_DECRYPT=1
 export OF_NO_SAMSUNG_SPECIAL=1
 export FOX_ENABLE_APP_MANAGER=1
-export OF_MAINTAINER="Shekhawat2"
-export OF_MAINTAINER_AVATAR="device/xiaomi/whyred/shekhawat2.png"
+export OF_MAINTAINER="GhostMaster69-dev"
+export OF_MAINTAINER_AVATAR="device/xiaomi/tulip/maintainer.png"
 
 # Quick Backup Defaults
 export OF_QUICK_BACKUP_LIST="/boot;/data;/system;/system_root;/vendor;"
 
 # Update Magisk
-export FOX_USE_SPECIFIC_MAGISK_ZIP="device/xiaomi/whyred/prebuilt/Magisk-v24.3.zip"
+export FOX_USE_SPECIFIC_MAGISK_ZIP="device/xiaomi/tulip/prebuilt/Magisk-v24.3.zip"
 
 # Extra Binaries
 export FOX_USE_BASH_SHELL=1
